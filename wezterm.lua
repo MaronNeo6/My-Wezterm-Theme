@@ -61,6 +61,10 @@ config.keys = {
 
 	{ key = "c", mods = "CTRL", action = wezterm.action.CopyTo("Clipboard") },
 	{ key = "v", mods = "CTRL", action = wezterm.action.PasteFrom("Clipboard") },
+
+	-- Sair do Wezterm
+
+	{ key = 'q', mods = 'CTRL', action = wezterm.action.QuitApplication }
 }
 
 -- Configuração da Janela
