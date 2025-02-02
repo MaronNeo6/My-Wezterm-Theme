@@ -8,7 +8,7 @@ end
 
 -- Configuração Básica
 
-config.color_scheme = "Tokyo Night"
+config.color_scheme = "Vs Code Dark+ (Gogh)"
 config.scrollback_lines = 3000
 config.default_workspace = "home"
 config.window_background_opacity = 0.7
@@ -27,6 +27,7 @@ config.font_size = 10.0
 
 -- Configuração das Teclas de atalho
 
+config.leader = { key = "a", mods = "CTRL", timeout_miliseconds = 1000 }
 config.keys = {
 
 	-- Ações basicas
