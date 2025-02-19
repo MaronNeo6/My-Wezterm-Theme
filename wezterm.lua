@@ -1,8 +1,6 @@
 local wezterm = require("wezterm")
 act = wezterm.action
 
-a
-
 local config = {}
 if wezterm.config_builder then
 	config = wezterm.config_builder()
