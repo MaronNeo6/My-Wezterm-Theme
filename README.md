@@ -19,5 +19,5 @@ Se já existir uma configuração do wezterm, lembre-se de fazer backup.
 
 ### Windows
 ```
-%HOME%/.wezterm/
+%HOME%/.wezterm.lua
 ```
