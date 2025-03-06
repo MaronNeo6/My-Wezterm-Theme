@@ -8,10 +8,10 @@ end
 
 -- Configuração Básica
 
-config.color_scheme = "Gruvbox dark, hard (base16)"
+config.color_scheme = "Tokyo Night"
 config.scrollback_lines = 3000
 config.default_workspace = "home"
-config.window_background_opacity = 0.7
+config.window_background_opacity = 0.9
 
 -- Escurecer Paineis inativos
 
@@ -71,7 +71,7 @@ config.keys = {
 -- Configuração da Janela
 
 config.use_fancy_tab_bar = false
-config.tab_bar_at_bottom = true
+config.tab_bar_at_bottom = false
 config.hide_tab_bar_if_only_one_tab = true
 config.window_decorations = "RESIZE|TITLE"
 
