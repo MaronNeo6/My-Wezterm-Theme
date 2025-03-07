@@ -8,7 +8,7 @@ end
 
 -- Configuração Básica
 
-config.color_scheme = "Tokyo Night"
+config.color_scheme = "Abernathy"
 config.scrollback_lines = 3000
 config.default_workspace = "home"
 config.window_background_opacity = 0.9
@@ -23,7 +23,7 @@ config.inactive_pane_hsb = {
 -- Configuração da Fonte
 
 config.font = wezterm.font("JetBrains Mono", { weight = "Bold" })
-config.font_size = 10.0
+config.font_size = 11.0
 
 -- Configuração das Teclas de atalho
 
@@ -70,7 +70,7 @@ config.keys = {
 
 	-- Sair do Wezterm
 
-	{ key = 'q', mods = 'CTRL', action = wezterm.action.QuitApplication },
+	{ key = 'q', mods = 'CTRL', action = wezterm.action.QuitApplication }
 }
 
 -- Configuração da Janela
