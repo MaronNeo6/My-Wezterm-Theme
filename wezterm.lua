@@ -70,7 +70,7 @@ config.keys = {
 
 	-- Sair do Wezterm
 
-	{ key = 'q', mods = 'CTRL', action = wezterm.action.QuitApplication }
+	{ key = 'q', mods = 'CTRL', action = wezterm.action.QuitApplication },
 }
 
 -- Configuração da Janela
