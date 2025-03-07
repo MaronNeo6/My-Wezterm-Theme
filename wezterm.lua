@@ -27,7 +27,6 @@ config.font_size = 10.0
 
 -- Configuração das Teclas de atalho
 
-config.leader = { key = "a", mods = "CTRL", timeout_miliseconds = 1000 }
 config.keys = {
 
 	-- Ações basicas
@@ -44,6 +43,12 @@ config.keys = {
 	{ key = "DownArrow", mods = "SHIFT", action = act.ActivatePaneDirection("Down") },
 	{ key = "LeftArrow", mods = "SHIFT", action = act.ActivatePaneDirection("Left") },
 	{ key = "RightArrow", mods = "SHIFT", action = act.ActivatePaneDirection("Right") },
+
+  -- Abrir apps por keybinds
+
+  { key = "1", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab{ args = { "btop" },}, },
+  { key = "2", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab { args = { "nvim" },}, },
+  { key = "3", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab { args = { "lazygit" },}, },
 
 	-- Troca entre paineis
 
