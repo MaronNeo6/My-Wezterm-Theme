@@ -12,6 +12,7 @@ config.color_scheme = "Andromeda"
 config.scrollback_lines = 3000
 config.default_workspace = "home"
 config.window_background_opacity = 0.9
+config.window_close_confirmation = "NeverPrompt"
 
 -- Escurecer Paineis inativos
 
@@ -46,9 +47,10 @@ config.keys = {
 
   -- Abrir apps por keybinds
 
-  { key = "1", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab{ args = { "btop" },}, },
+  { key = "1", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab { args = { "btop" },}, },
   { key = "2", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab { args = { "nvim" },}, },
   { key = "3", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab { args = { "lazygit" },}, },
+  { key = "4", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab { args = { "sudo apt update ; sudo apt upgrade" }, }, },
 
 	-- Troca entre paineis
 
@@ -78,7 +80,7 @@ config.keys = {
 config.use_fancy_tab_bar = false
 config.tab_bar_at_bottom = false
 config.hide_tab_bar_if_only_one_tab = true
-config.window_decorations = "RESIZE|TITLE"
+config.window_decorations = "RESIZE"
 
 -- Transparência no MacOS (Descomente caso queira)
 
