@@ -50,7 +50,6 @@ config.keys = {
   { key = "1", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab { args = { "btop" },}, },
   { key = "2", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab { args = { "nvim" },}, },
   { key = "3", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab { args = { "lazygit" },}, },
-  { key = "4", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab { args = { "sudo apt update ; sudo apt upgrade" }, }, },
 
 	-- Troca entre paineis
 
