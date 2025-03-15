@@ -36,6 +36,10 @@ config.keys = {
 	{ key = "t", mods = "CTRL", action = act.SpawnTab("CurrentPaneDomain") },
 	{ key = "f", mods = "CTRL", action = wezterm.action.ToggleFullScreen },
 
+	-- Comandos para abrir aplicativos
+	
+	{ key = "1", mods = "CTRL", action = wezterm.action.SpawnCommandInNewTab { args = { "lazygit" },},},
+
 	-- Ajuste e navegação nos paineis
 
 	{ key = "k", mods = "CTRL", action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }) },
